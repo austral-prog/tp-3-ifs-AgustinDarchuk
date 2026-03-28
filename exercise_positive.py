@@ -16,3 +16,12 @@ def positive():
         El numero es cero
     """
     pass
+
+    numero = int(input())
+    
+    if numero > 0:
+        print(f'El numero es positivo')
+    if numero < 0:
+        print(f'El numero es negativo')
+    if numero == 0:
+        print(f'El numero es cero')

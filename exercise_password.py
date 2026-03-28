@@ -24,3 +24,13 @@ def password():
         Debe contener un numero
     """
     pass
+
+    contr = str(input())
+    largo = len(contr)
+    
+    if largo < 8:
+        print("Contraseña muy corta")
+    if "0" in contr or "1" in contr or "2" in contr or "3" in contr or "4" in contr or "5" in contr or "6" in contr or "7" in contr or "8" in contr or "9" in contr:
+        print("Contraseña valida")
+    else:
+        print("Debe contener un numero")
